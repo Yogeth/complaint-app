@@ -55,7 +55,7 @@ export default function ViewPage() {
       {error && !loading && (
         <div className={styles.empty}>
           <span className={styles.emptyIcon}>⚠️</span>
-          <p>Could not load complaints. Make sure the backend is running at <strong>localhost:8080</strong>.</p>
+          <p>Could not load complaints. Make sure the backend is running ..</p>
         </div>
       )}
 
