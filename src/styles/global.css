@@ -1,4 +1,4 @@
-/* Global CSS Variables & Base Styles */
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap');
 
 :root {
@@ -16,8 +16,6 @@
   --color-error-bg:   #fdecea;
   --color-error-fg:   #c62828;
   --color-error-br:   #ef9a9a;
-  --font-display:     'DM Serif Display', serif;
-  --font-body:        'DM Sans', sans-serif;
   --radius-sm:        8px;
   --radius-md:        12px;
   --radius-lg:        16px;

@@ -8,9 +8,11 @@ export default function App() {
   const [activeTab, setActiveTab] = useState("register");
 
   return (
-    <>
+    <div style={{
+      fontFamily:"Inter,sans-serif"
+    }}>
       <Header activeTab={activeTab} onTabChange={setActiveTab} />
       {activeTab === "register" ? <RegisterPage /> : <ViewPage />}
-    </>
+    </div>
   );
 }
