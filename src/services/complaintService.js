@@ -14,3 +14,10 @@ export async function fetchComplaints() {
   if (!res.ok) throw new Error("Failed to fetch complaints");
   return res.json();
 }
+
+export async function isConnected(){
+  const res= await fetch(import.meta.env.VITE_API_CONNECT);
+  const result = await res.json();
+  return await result;
+  // console.log(result)
+}
